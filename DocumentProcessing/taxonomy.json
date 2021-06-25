@@ -13,10 +13,40 @@
       },
       "Fields": [
         {
+          "FieldId": "HumanResources.Expenses.PaymentSlip.OrganisationName",
+          "FieldName": "Organisation Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
           "FieldId": "HumanResources.Expenses.PaymentSlip.EmployeeName",
           "FieldName": "Employee Name",
           "IsMultiValue": false,
           "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        },
+        {
+          "FieldId": "HumanResources.Expenses.PaymentSlip.EmployeeNumber",
+          "FieldName": "Employee Number",
+          "IsMultiValue": false,
+          "Type": "Number",
           "DeriveFieldsFormat": "",
           "Components": [],
           "SetValues": [],
